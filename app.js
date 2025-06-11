@@ -25,5 +25,6 @@ function isBalanced(s) {
         }
     }
 
-
+    // If stack is empty, all brackets matched properly
+    return stack.length === 0 ? "YES" : "NO";
 }
