@@ -14,7 +14,15 @@ function isBalanced(s) {
         // If it's an opening bracket, push it to the stack
         if (char === '(' || char === '[' || char === '{') {
             stack.push(char);
-        } else 
+        } else {
+            // If it's a closing bracket:
+            // Check if stack is empty or top of stack doesn't match the opening bracket
+            if (stack.length === 0 || stack[stack.length - 1] !== bracketMap[char]) {
+                return "NO";
+            }
+            // If it's a match, pop the opening bracket from the stack
+            stack.pop();
+        }
     }
 
 
