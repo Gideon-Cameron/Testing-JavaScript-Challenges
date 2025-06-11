@@ -13,4 +13,4 @@ fuction isValid(s) {
     }
 }
 
-// Now to finish I will start by checking for
+// Now to finish I will start by checking for any
