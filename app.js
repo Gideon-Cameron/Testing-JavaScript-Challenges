@@ -1,16 +1,9 @@
-fuction isValid(s) {
-    const stack = [];
-    const bracketMap = {
-        ')': '(',
-        '}': '{',
-        ']': '[',
-    };
+function isBalanced(s) {
+    // Stack to keep track of opening brackets
+    
 
-    for (let char of s) {
-        if (char === '(' || char === '{') {
-            stack.push(char)
-        }
-    }
+    
+    
+
+
 }
-
-// Now to finish I will start by checking for any
