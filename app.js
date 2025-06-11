@@ -9,8 +9,13 @@ function isBalanced(s) {
         '}': '{'
     };
 
-    
-    
+    // Iterate through each character in the string
+    for (let char of s) {
+        // If it's an opening bracket, push it to the stack
+        if (char === '(' || char === '[' || char === '{') {
+            stack.push(char);
+        } else 
+    }
 
 
 }
