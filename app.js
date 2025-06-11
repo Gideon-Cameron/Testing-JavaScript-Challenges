@@ -3,7 +3,11 @@ function isBalanced(s) {
     const stack = [];
 
     // Map to match closing brackets with their corresponding opening brackets
-    
+    const bracketMap = {
+        ')': '(',
+        ']': '[',
+        '}': '{'
+    };
 
     
     
